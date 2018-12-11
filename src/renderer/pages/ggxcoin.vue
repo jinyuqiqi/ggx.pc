@@ -1,0 +1,1 @@
+ggxcoin.vue

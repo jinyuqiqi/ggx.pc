@@ -1,0 +1,46 @@
+export const LOGIN = 'LOGIN'
+export const LOGOUT = 'LOGOUT'
+export const IS_LOGIN = 'IS_LOGIN'
+export const IS_REEDIT = 'IS_REEDIT'
+
+
+
+export const SHOW_DIALOG = 'SHOW_DIALOG'
+export const HIDE_DIALOG = 'HIDE_DIALOG'
+export const GET_ALREADY_PUSH = 'GET_ALREADY_PUSH'
+export const PAY_SUCCESS = 'PAY_SUCCESS'
+export const HIDE_PAY_DIALOG = 'HIDE_PAY_DIALOG'
+
+export const SET_LOADING_STATE = 'SET_LOADING_STATE'
+export const GET_ALL_ORDER = 'GET_ALL_ORDER'
+export const GET_SEND_ORDER = 'GET_SEND_ORDER'
+export const GET_TAKE_ORDER = 'GET_TAKE_ORDER'
+export const GET_NEAR_ORDER = 'GET_NEAR_ORDER'
+export const GET_USER_INFO = 'GET_USER_INFO'
+export const GET_DETAILS = 'GET_DETAILS'
+export const GET_NAVTITLE = 'GET_NAVTITLE'
+export const GET_TIME = 'GET_TIME'
+export const WIPE_PARAMS = 'WIPE_PARAMS'
+
+export const SELECT_CLASS = 'SELECT_CLASS'
+export const REMOVE_CLASS = 'REMOVE_CLASS'
+export const CHANGE_GOODS_NUM = 'CHANGE_GOODS_NUM'
+
+export const SWITCH_TYPE = 'SWITCH_TYPE'
+export const SWITCH_STATUS = 'SWITCH_STATUS'
+
+export const SET_ORDER_TYPE = 'SET_ORDER_TYPE'
+export const GET_LEVEL = 'GET_LEVEL'
+export const GET_SECOND_LEVEL = 'GET_SECOND_LEVEL'
+export const GET_THIRD_LEVEL = 'GET_THIRD_LEVEL'
+export const GET_SECOND_ID = 'GET_SECOND_ID'
+export const GET_INSURE_INFO = 'GET_INSURE_INFO'
+export const SELECT_WORK_TYPE = 'SELECT_WORK_TYPE'
+export const SELECT_ADDRESS = 'SELECT_ADDRESS'
+export const SELECT_OTHER_INFO = 'SELECT_OTHER_INFO'
+export const SELECT_PAY_MODE = 'SELECT_PAY_MODE'
+export const SELECT_INSURE = 'SELECT_INSURE'
+export const CLONE_BUNDLE = 'CLONE_BUNDLE'
+
+
+

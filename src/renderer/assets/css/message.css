@@ -1,0 +1,89 @@
+.message{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    overflow-y: auto;
+    padding: 8px;
+}
+.msg-list .msg-list-item{
+    min-width: 500px;
+    margin-bottom: 10px;
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: #FFFFFF;
+    padding: 20px 30px; 
+    position: relative;
+}
+.msg-list .msg-list-item .msg-icon{
+    margin-right: 36px;
+    position: relative;
+}
+.msg-list .msg-list-item .msg-icon b{
+    position: absolute;
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    background: #ff0000;
+    border-radius: 50%;
+    color: #FFFFFF;
+    top: 1px;
+    right: -10px;
+    font-size: 12px;
+    text-align: center;
+}
+.msg-list .msg-list-item .msg-icon img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+}
+.msg-list .msg-list-item .msg-text{
+    line-height: 30px;
+}
+.msg-list .msg-list-item .msg-text .msg-text-source{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.msg-list .msg-list-item .msg-text .msg-text-source .msg-type{
+
+    height: 26px;
+    line-height: 26px;
+    border-radius: 13px;
+    border: 1px solid #ffac30;
+    color: #ffac30;
+    margin-right: 20px;
+    font-size: 12px;
+    padding: 0 15px;
+    display: inline-block;
+}
+.msg-list .msg-list-item .msg-text .msg-text-explain{ 
+    display:-webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.msg-list .msg-list-item .msg-text .msg-text-explain .msg-type{
+    width: 82px;
+    height: 26px;
+    line-height: 26px;
+    border-radius: 13px;
+    border: 1px solid #ffac30;
+    color: #ffac30;
+    margin-right: 20px;
+    font-size: 12px;
+    padding: 0 15px;
+}
+.msg-list .msg-list-item .msg-time{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
